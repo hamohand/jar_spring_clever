@@ -19,7 +19,8 @@ public class HelloworldApplication {
 		@GetMapping("/")
 		String hello() {
 			//return "Hello " + target + "!";
-			return "Hello " + target + " ! Jar-CleverCloud, " + "le 05/10 10:30";
+			//return "Hello " + target + " ! Jar-CleverCloud, " + "le 05/10 10:30";
+			return "Hello " + target + " ! Gcloud, " + "le 07/10 16:30";
 		}
 	}
 
